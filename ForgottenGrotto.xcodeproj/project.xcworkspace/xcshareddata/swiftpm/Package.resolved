@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "d06df9adf50ed8cde5786d935836a5f445f780ba",
+          "version": "6.3.1"
+        }
+      },
+      {
+        "package": "NiceComponents",
+        "repositoryURL": "https://github.com/steamclock/swiftui_components.git",
+        "state": {
+          "branch": "main",
+          "revision": "0b4f22ed2a4188a37acc3818eb79f0a006cac8ee",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C676E52B26C6D7C0007DF8AE /* ForgottenGrottoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E52A26C6D7C0007DF8AE /* ForgottenGrottoApp.swift */; };
+		C676E52D26C6D7C0007DF8AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E52C26C6D7C0007DF8AE /* ContentView.swift */; };
+		C676E52F26C6D7C2007DF8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C676E52E26C6D7C2007DF8AE /* Assets.xcassets */; };
+		C676E53226C6D7C2007DF8AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C676E53126C6D7C2007DF8AE /* Preview Assets.xcassets */; };
+		C676E53F26C6D8D7007DF8AE /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E53E26C6D8D7007DF8AE /* NFCManager.swift */; };
+		C676E54226C6DB5E007DF8AE /* NiceComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C676E54126C6DB5E007DF8AE /* NiceComponents */; };
+		C676E54426C6E668007DF8AE /* StoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E54326C6E668007DF8AE /* StoryContent.swift */; };
+		C676E54626C6EFCD007DF8AE /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = C676E54526C6EFCD007DF8AE /* story.json */; };
+		C676E54826C70A1B007DF8AE /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E54726C70A1B007DF8AE /* TileView.swift */; };
+		C676E54A26C70CC0007DF8AE /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E54926C70CC0007DF8AE /* ThemeColors.swift */; };
+		C676E54C26C71013007DF8AE /* VT323.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C676E54B26C71013007DF8AE /* VT323.ttf */; };
+		C676E55026C712D4007DF8AE /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E54F26C712D4007DF8AE /* ScanButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C676E52726C6D7C0007DF8AE /* ForgottenGrotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgottenGrotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C676E52A26C6D7C0007DF8AE /* ForgottenGrottoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenGrottoApp.swift; sourceTree = "<group>"; };
+		C676E52C26C6D7C0007DF8AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C676E52E26C6D7C2007DF8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C676E53126C6D7C2007DF8AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C676E53326C6D7C2007DF8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C676E53926C6D7CD007DF8AE /* ForgottenGrotto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForgottenGrotto.entitlements; sourceTree = "<group>"; };
+		C676E53E26C6D8D7007DF8AE /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+		C676E54326C6E668007DF8AE /* StoryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContent.swift; sourceTree = "<group>"; };
+		C676E54526C6EFCD007DF8AE /* story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
+		C676E54726C70A1B007DF8AE /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		C676E54926C70CC0007DF8AE /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		C676E54B26C71013007DF8AE /* VT323.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VT323.ttf; sourceTree = "<group>"; };
+		C676E54F26C712D4007DF8AE /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C676E52426C6D7C0007DF8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C676E54226C6DB5E007DF8AE /* NiceComponents in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C676E51E26C6D7C0007DF8AE = {
+			isa = PBXGroup;
+			children = (
+				C676E52926C6D7C0007DF8AE /* ForgottenGrotto */,
+				C676E52826C6D7C0007DF8AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C676E52826C6D7C0007DF8AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C676E52726C6D7C0007DF8AE /* ForgottenGrotto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C676E52926C6D7C0007DF8AE /* ForgottenGrotto */ = {
+			isa = PBXGroup;
+			children = (
+				C676E54526C6EFCD007DF8AE /* story.json */,
+				C676E53A26C6D80B007DF8AE /* Manager */,
+				C676E53B26C6D810007DF8AE /* Model */,
+				C676E53026C6D7C2007DF8AE /* Preview Content */,
+				C676E53D26C6D81A007DF8AE /* Resources */,
+				C676E53C26C6D815007DF8AE /* View */,
+			);
+			path = ForgottenGrotto;
+			sourceTree = "<group>";
+		};
+		C676E53026C6D7C2007DF8AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C676E53126C6D7C2007DF8AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C676E53A26C6D80B007DF8AE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C676E53E26C6D8D7007DF8AE /* NFCManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C676E53B26C6D810007DF8AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C676E54326C6E668007DF8AE /* StoryContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C676E53C26C6D815007DF8AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C676E52A26C6D7C0007DF8AE /* ForgottenGrottoApp.swift */,
+				C676E52C26C6D7C0007DF8AE /* ContentView.swift */,
+				C676E54726C70A1B007DF8AE /* TileView.swift */,
+				C676E54F26C712D4007DF8AE /* ScanButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C676E53D26C6D81A007DF8AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C676E54B26C71013007DF8AE /* VT323.ttf */,
+				C676E53926C6D7CD007DF8AE /* ForgottenGrotto.entitlements */,
+				C676E52E26C6D7C2007DF8AE /* Assets.xcassets */,
+				C676E53326C6D7C2007DF8AE /* Info.plist */,
+				C676E54926C70CC0007DF8AE /* ThemeColors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C676E52626C6D7C0007DF8AE /* ForgottenGrotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C676E53626C6D7C2007DF8AE /* Build configuration list for PBXNativeTarget "ForgottenGrotto" */;
+			buildPhases = (
+				C676E52326C6D7C0007DF8AE /* Sources */,
+				C676E52426C6D7C0007DF8AE /* Frameworks */,
+				C676E52526C6D7C0007DF8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgottenGrotto;
+			packageProductDependencies = (
+				C676E54126C6DB5E007DF8AE /* NiceComponents */,
+			);
+			productName = ForgottenGrotto;
+			productReference = C676E52726C6D7C0007DF8AE /* ForgottenGrotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C676E51F26C6D7C0007DF8AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C676E52626C6D7C0007DF8AE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C676E52226C6D7C0007DF8AE /* Build configuration list for PBXProject "ForgottenGrotto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C676E51E26C6D7C0007DF8AE;
+			packageReferences = (
+				C676E54026C6DB5E007DF8AE /* XCRemoteSwiftPackageReference "swiftui_components" */,
+			);
+			productRefGroup = C676E52826C6D7C0007DF8AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C676E52626C6D7C0007DF8AE /* ForgottenGrotto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C676E52526C6D7C0007DF8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C676E53226C6D7C2007DF8AE /* Preview Assets.xcassets in Resources */,
+				C676E52F26C6D7C2007DF8AE /* Assets.xcassets in Resources */,
+				C676E54626C6EFCD007DF8AE /* story.json in Resources */,
+				C676E54C26C71013007DF8AE /* VT323.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C676E52326C6D7C0007DF8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C676E53F26C6D8D7007DF8AE /* NFCManager.swift in Sources */,
+				C676E54426C6E668007DF8AE /* StoryContent.swift in Sources */,
+				C676E52D26C6D7C0007DF8AE /* ContentView.swift in Sources */,
+				C676E55026C712D4007DF8AE /* ScanButton.swift in Sources */,
+				C676E54826C70A1B007DF8AE /* TileView.swift in Sources */,
+				C676E52B26C6D7C0007DF8AE /* ForgottenGrottoApp.swift in Sources */,
+				C676E54A26C70CC0007DF8AE /* ThemeColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C676E53426C6D7C2007DF8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C676E53526C6D7C2007DF8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C676E53726C6D7C2007DF8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForgottenGrotto/Resources/ForgottenGrotto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ForgottenGrotto/Preview Content\"";
+				DEVELOPMENT_TEAM = GH868RP95T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ForgottenGrotto/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steamclock.ForgottenGrotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C676E53826C6D7C2007DF8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForgottenGrotto/Resources/ForgottenGrotto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ForgottenGrotto/Preview Content\"";
+				DEVELOPMENT_TEAM = GH868RP95T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ForgottenGrotto/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.steamclock.ForgottenGrotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C676E52226C6D7C0007DF8AE /* Build configuration list for PBXProject "ForgottenGrotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C676E53426C6D7C2007DF8AE /* Debug */,
+				C676E53526C6D7C2007DF8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C676E53626C6D7C2007DF8AE /* Build configuration list for PBXNativeTarget "ForgottenGrotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C676E53726C6D7C2007DF8AE /* Debug */,
+				C676E53826C6D7C2007DF8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C676E54026C6DB5E007DF8AE /* XCRemoteSwiftPackageReference "swiftui_components" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/steamclock/swiftui_components.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C676E54126C6DB5E007DF8AE /* NiceComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C676E54026C6DB5E007DF8AE /* XCRemoteSwiftPackageReference "swiftui_components" */;
+			productName = NiceComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C676E51F26C6D7C0007DF8AE /* Project object */;
+}

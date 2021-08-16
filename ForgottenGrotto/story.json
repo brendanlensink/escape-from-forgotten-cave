@@ -1,0 +1,137 @@
+[{
+        "id": 0,
+        "content": "",
+        "isGameOver": false,
+        "nextOptions": [{
+            "id": 1,
+            "content": ""
+        }]
+    },
+    {
+        "id": 1,
+        "content": "You awake slowly, your head throbbing as you fight to open your eyes.\nIt's dark, but after a few seconds your eyes refocus and you're able to faintly make out a small workbench against the far wall of the room. The wall closest to you is covered in shelves, haphazardly attached directly to the rough stone walls.\nThe air is stale, and you can't help but feel like you're a long way from the Gold River Inn, where you spent last night celebrating another bountiful harvest. A kind stranger had brought apple brandy, fresh from their farm.\nCome to think of it... that's the last clear memory you have.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 2,
+                "content": "You hide behind a nearby shelf, hoping to surprise whoever put you here and get to the bottom of what happened last night."
+            },
+            {
+                "id": 3,
+                "content": "You struggle to your feet, slowly dust yourself and sneak towards the door, left slightly ajar, hoping to slip out before whoever brought you here returns."
+            }
+        ]
+    }, {
+        "id": 2,
+        "content": "As you try and piece together the events of the previous night, you hear a slow shuffling approaching you.\nThe door slowly creaks open and a hooded figure, stooped low and muttering to themselves, pauses in the doorway.\n You hold your breath, hoping the mysterious figure doesn't notice your absence.\nAfter what feels like an eternity the figure shuffles over to the workbench and begins sifting through various papers, as if searching for something.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 4,
+                "content": "You notice a heavy iron hammer on the shelf next to you. Lifting the hammer over your head you attempt to sneak up on the hooded figure."
+            },
+            {
+                "id": 5,
+                "content": "Holding your breath once again, you rise to a crouch and attempt to sneak past the mysterious figure and out the now open door."
+            }
+        ]
+    }, {
+        "id": 3,
+        "content": "You peer through the crack in the door, and satisfied there's no one coming you ease the door open slowly. The old rusted hinges are mercifully silent as the door swings open, revealing a long sloped corridor shrouded in darkness. To your left, the path slopes gently upward and you can make out the faint, flickering glow of a torch past a curve in the corridor. To your right, the ground slopes downward quickly and any light quickly fades to pitch black.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 5,
+                "content": "Turning left, you begin sneaking towards the torch light, hoping whoever brought you here is otherwise occupied."
+            },
+            {
+                "id": 6,
+                "content": "Your steel yourself and begin to descend, slowly feeling for each step as the darkness surrounds you."
+            }
+        ]
+    }, {
+        "id": 4,
+        "content": "The hammer comes down with a wet THUD as the figure crumples beneath it's weight. As it falls you hear a sharp clattering, and stoop to pick up a ring of rough, iron keys. You turn to the door and press your ear to it, holding your breath as you listen closely for any sign of life on the other side. After a few tense moments, you slowly ease the door open and sneak out into the corridor. As you ascend the rough stone path, you notice a small breeze coming from a large crack in the wall. The air is warm and smells fresh, a stark contrast to the dingy hallway.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 7,
+                "content": "Curious, you attempt to squeeze through the gap."
+            },
+            {
+                "id": 8,
+                "content": "You carry on the path ahead, focused on the distinct flicker of a torch you can see ahead past a bend in the path."
+            }
+        ]
+    }, {
+        "id": 5,
+        "content": "As you inch forwards, you see the light is in fact coming from a small room. Through the partially opened door you can see the soft glint of a set of keys, hanging against the wall.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 8,
+                "content": "You approach the door, and as carefully as possible inch your arm through the door, grasping for the set of keys."
+            },
+            {
+                "id": 9,
+                "content": "You lift the torch from the nearby wall, brandishing it as you enter the room."
+            }
+        ]
+    }, {
+        "id": 6,
+        "content": "You inch further into the darkness, carefully placing each foot and testing its weight before every step. You can feel the air become damper, and the floor becomes slick. Your toe catches a loose stone in the darkness, and as you reel in pain you lose your balance and slip. Suddenly you're falling...\nand falling... \n \nand falling...",
+        "isGameOver": true,
+        "nextOptions": []
+    }, {
+        "id": 7,
+        "content": "You shuffle awkwardly along through the passage. After a couple feet it narrows, but you can make out bookshelves on the far side. You hold your breath and squeeze through, your knee catches on a protruding rock but you manage to make it through. The dull sting of your knee is forgotten as the passage opens up into a small room filled to the ceiling with shelves overflowing with books.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 10,
+                "content": "Curious, you begin browsing the various books. You notice an oddly clean book sticking out from a pile of particularly musty books and give it a tug."
+            },
+            {
+                "id": 8,
+                "content": "Intent on escape, you wind through the bookcases searching for the door."
+            }
+        ]
+    }, {
+        "id": 8,
+        "content": "You come across a room with strange, glowing runes scrawled across the door.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 11,
+                "content": "Keep going"
+            },
+            {
+                "id": 10,
+                "content": "Investigate"
+            }
+        ]
+    }, {
+        "id": 9,
+        "content": "You stumble into a workshop, and are caught.",
+        "isGameOver": true,
+        "nextOptions": []
+    }, {
+        "id": 10,
+        "content": "You come to a set of steep stairs, carved roughly into the stone. They lead upwards, but darkness engulfs them quickly as you squint to try and see what lies ahead.",
+        "isGameOver": false,
+        "nextOptions": [{
+                "id": 12,
+                "content": "You hurry up the stairs, too preoccupied with the chance to escape to worry now."
+            },
+            {
+                "id": 11,
+                "content": "As you approach the stairs, a flask of mysterious green liquid catches your eye. On an impulse, you lift the flask and hurt it back into the room as you turn and begin climbing the stairs."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "The flask shatters as it crashes on the hard stone floor. You hear a sharp whooshing noise and turn in time to see a wave of green flame engulf you.",
+        "isGameOver": true,
+        "nextOptions": []
+    },
+    {
+        "id": 12,
+        "content": "Out of breath and aching from head to toe, you finally reach a small wooden door. You can see sunlight peeking through the cracks. Elated, you kick down the door and emerge into the sunlight, free to return to your life.",
+        "isGameOver": false,
+        "nextOptions": []
+    }
+]
